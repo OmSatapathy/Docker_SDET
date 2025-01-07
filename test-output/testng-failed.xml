@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Jan3.MultiSelect">
+      <class name="com.jan7.ResponseValidation">
         <methods>
-          <include name="browerInstace"/>
-          <include name="brokenLinks"/>
+          <include name="getRequest"/>
         </methods>
-      </class> <!-- Jan3.MultiSelect -->
+      </class> <!-- com.jan7.ResponseValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
