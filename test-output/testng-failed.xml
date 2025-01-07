@@ -5,7 +5,7 @@
     <classes>
       <class name="com.jan7.ResponseValidation">
         <methods>
-          <include name="getRequest"/>
+          <include name="verifyWithid"/>
         </methods>
       </class> <!-- com.jan7.ResponseValidation -->
     </classes>

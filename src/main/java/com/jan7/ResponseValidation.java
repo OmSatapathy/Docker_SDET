@@ -3,6 +3,7 @@ package com.jan7;
 import java.util.List;
 import java.util.Map;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -41,6 +42,21 @@ public class ResponseValidation {
             }
         }
 
+		
+		
    
+	}
+	
+	@Test
+	public void verifyWithid() {
+		
+		Response res = RestAssured.given().accept(ContentType.JSON).contentType("appliaction/json").when()
+				.get("https://api.restful-api.dev/objects?id=3&id=5&id=10").andReturn();
+		
+		
+		String color = res.jsonPath().get("data[0].color");
+		List<Object> name = res.jsonPath().getList("name");
+		
+		Assert.assertEquals(name.get(0), "Apple iPhone 12 Pro Max", "Name does not match!");
 	}
 }
