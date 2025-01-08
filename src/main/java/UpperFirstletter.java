@@ -19,13 +19,13 @@ public class UpperFirstletter {
 		
 		 String output1 = "";
 	        for (String word : s.split(" ")) {
-	            output += word.substring(0, 1).toUpperCase() + word.substring(1) + " ";
+	            output1 += word.substring(0, 1).toUpperCase() + word.substring(1) + " ";
 	        }
 	        
 
 		System.out.println(bs);
 		
-		//System.out.println(output1.trim());
+		System.out.println(output1.trim());
 	}
 
 }
