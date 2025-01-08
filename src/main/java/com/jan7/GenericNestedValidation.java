@@ -58,5 +58,5 @@ public class GenericNestedValidation {
 
         System.out.println("Response:");
         response.prettyPrint();
-
+	}
 }

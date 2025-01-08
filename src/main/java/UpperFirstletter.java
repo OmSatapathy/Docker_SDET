@@ -25,7 +25,7 @@ public class UpperFirstletter {
 
 		System.out.println(bs);
 		
-		System.out.println(output1.trim());
+		//System.out.println(output1.trim());
 	}
 
 }
