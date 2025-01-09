@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jan7.ResponseValidation">
+      <class name="com.restapi.ResponseVerify">
         <methods>
-          <include name="verifyWithid"/>
+          <include name="verifyResponse"/>
         </methods>
-      </class> <!-- com.jan7.ResponseValidation -->
+      </class> <!-- com.restapi.ResponseVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
