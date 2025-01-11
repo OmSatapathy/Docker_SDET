@@ -5,7 +5,7 @@
     <classes>
       <class name="com.jan11.Webautomation">
         <methods>
-          <include name="verifyCountry"/>
+          <include name="softAsset"/>
         </methods>
       </class> <!-- com.jan11.Webautomation -->
     </classes>
