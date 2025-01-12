@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-11T08:54:49 IST" name="Default suite" finished-at="2025-01-11T08:55:13 IST" duration-ms="23985">
+  <suite started-at="2025-01-12T11:02:21 IST" name="Default suite" finished-at="2025-01-12T11:02:21 IST" duration-ms="15">
     <groups>
     </groups>
-    <test started-at="2025-01-11T08:54:49 IST" name="Default test" finished-at="2025-01-11T08:55:13 IST" duration-ms="23985">
-      <class name="com.jan11.Webautomation">
-        <test-method signature="framehandler()[pri:0, instance:com.jan11.Webautomation@654f0d9c]" started-at="2025-01-11T08:54:49 IST" name="framehandler" finished-at="2025-01-11T08:55:13 IST" duration-ms="23974" status="PASS">
+    <test started-at="2025-01-12T11:02:21 IST" name="Default test" finished-at="2025-01-12T11:02:21 IST" duration-ms="15">
+      <class name="com.jan11.MoveallzeroRight">
+        <test-method signature="oddEven()[pri:0, instance:com.jan11.MoveallzeroRight@353d0772]" started-at="2025-01-12T11:02:21 IST" name="oddEven" finished-at="2025-01-12T11:02:21 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- framehandler -->
-      </class> <!-- com.jan11.Webautomation -->
+        </test-method> <!-- oddEven -->
+      </class> <!-- com.jan11.MoveallzeroRight -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
