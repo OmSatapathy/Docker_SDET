@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-12T11:02:21 IST" name="Default suite" finished-at="2025-01-12T11:02:21 IST" duration-ms="15">
+  <suite started-at="2025-01-12T17:28:35 IST" name="Default suite" finished-at="2025-01-12T17:28:41 IST" duration-ms="6234">
     <groups>
     </groups>
-    <test started-at="2025-01-12T11:02:21 IST" name="Default test" finished-at="2025-01-12T11:02:21 IST" duration-ms="15">
-      <class name="com.jan11.MoveallzeroRight">
-        <test-method signature="oddEven()[pri:0, instance:com.jan11.MoveallzeroRight@353d0772]" started-at="2025-01-12T11:02:21 IST" name="oddEven" finished-at="2025-01-12T11:02:21 IST" duration-ms="4" status="PASS">
+    <test started-at="2025-01-12T17:28:35 IST" name="Default test" finished-at="2025-01-12T17:28:41 IST" duration-ms="6234">
+      <class name="com.jan11.LocatorHandle">
+        <test-method signature="dropDown()[pri:0, instance:com.jan11.LocatorHandle@64cd705f]" started-at="2025-01-12T17:28:35 IST" name="dropDown" finished-at="2025-01-12T17:28:41 IST" duration-ms="6223" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oddEven -->
-      </class> <!-- com.jan11.MoveallzeroRight -->
+        </test-method> <!-- dropDown -->
+      </class> <!-- com.jan11.LocatorHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
