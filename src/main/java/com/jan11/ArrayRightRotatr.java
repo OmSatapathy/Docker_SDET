@@ -23,13 +23,24 @@ public class ArrayRightRotatr {
 		String[] sp = str.split(" ");
 
 		for (int i = 0; i < sp.length; i++) {
-			if (sp[i].length() >0) {
+			if (sp[i].length() > 0) {
 				sp[i] = sp[i].substring(0, 1).toUpperCase() + sp[i].substring(1);
 			}
 		}
 
 		String result = String.join(" ", sp);
 		System.out.println(result);
+
+		for (int i = 0; i < sp.length; i++) {
+			if (sp[i].length() > 1) {
+				sp[i] = sp[i].substring(0, 1) +
+						Character.toUpperCase(sp[i].charAt(1)) 
+				        + sp[i].substring(2);
+
+			}
+		}
+		String secondCapital = String.join(" ", sp);
+		System.out.println(secondCapital);
 	}
 
 }
