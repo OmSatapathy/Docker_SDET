@@ -49,13 +49,26 @@ public class TestCreateuser {
 		lap.setModel("core i7");
 		lap.setHarddisk("2 Tb");
 		lap.setPrice(2000.77);
+		
+		Laptop lap1 = new Laptop();
+		lap1.setYear(1009);
+		lap1.setModel("core i8");
+		lap1.setHarddisk("3 Tb");
+		lap1.setPrice(3000.77);
+		
 
 		Assert obj = new Assert();
 		obj.setName("Apple mac");
 		obj.setData(lap);
+		obj.setData(lap1);
+		
+		System.out.println(obj);
 
 		ObjectMapper mp = new ObjectMapper();
 		mp.writerWithDefaultPrettyPrinter().writeValueAsString(obj);
+
+		
+		System.out.println("*******");
 
 		Response res = RestAssured.given()
 				.contentType("application/json")
