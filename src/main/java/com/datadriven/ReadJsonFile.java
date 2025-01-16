@@ -19,20 +19,20 @@ public class ReadJsonFile {
 
 		Object obj = parser.parse(read); // convert json file --> java object
 
-		JSONObject json = (JSONObject) obj; 
-		
-		JSONArray jrr = (JSONArray)json.get("people");
-		
-		for(int i =0; i< jrr.size();i++) {
+		JSONObject json = (JSONObject) obj;
+
+		JSONArray jrr = (JSONArray) json.get("people");
+
+		for (int i = 0; i < jrr.size(); i++) {
 			JSONObject objs = (JSONObject) jrr.get(i);
-		String fname=	(String) objs.get("firstName");
-		String last = (String) objs.get("lastName");
-		String gender = (String) objs.get("gender");
-		
-		System.out.println(fname);
-		System.out.println(last);
-		System.out.println(gender);
-	
+			String fname = (String) objs.get("firstName");
+			String last = (String) objs.get("lastName");
+			String gender = (String) objs.get("gender");
+
+			System.out.println(fname);
+			System.out.println(last);
+			System.out.println(gender);
+
 		}
 
 	}
