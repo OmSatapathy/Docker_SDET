@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T17:36:17 IST" name="Default suite" finished-at="2025-01-16T17:36:19 IST" duration-ms="2060">
+  <suite started-at="2025-01-17T15:56:40 IST" name="Default suite" finished-at="2025-01-17T15:56:42 IST" duration-ms="1573">
     <groups>
     </groups>
-    <test started-at="2025-01-16T17:36:17 IST" name="Default test" finished-at="2025-01-16T17:36:19 IST" duration-ms="2060">
+    <test started-at="2025-01-17T15:56:40 IST" name="Default test" finished-at="2025-01-17T15:56:42 IST" duration-ms="1573">
       <class name="com.jan11.WeatherAPI">
-        <test-method signature="weatherTest()[pri:0, instance:com.jan11.WeatherAPI@67a20f67]" started-at="2025-01-16T17:36:17 IST" name="weatherTest" finished-at="2025-01-16T17:36:19 IST" duration-ms="2048" status="PASS">
+        <test-method signature="weatherTest()[pri:0, instance:com.jan11.WeatherAPI@67a20f67]" started-at="2025-01-17T15:56:40 IST" name="weatherTest" finished-at="2025-01-17T15:56:42 IST" duration-ms="1562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherTest -->
