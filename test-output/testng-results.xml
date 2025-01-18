@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T15:56:40 IST" name="Default suite" finished-at="2025-01-17T15:56:42 IST" duration-ms="1573">
+  <suite started-at="2025-01-18T17:26:33 IST" name="Default suite" finished-at="2025-01-18T17:26:56 IST" duration-ms="22911">
     <groups>
     </groups>
-    <test started-at="2025-01-17T15:56:40 IST" name="Default test" finished-at="2025-01-17T15:56:42 IST" duration-ms="1573">
-      <class name="com.jan11.WeatherAPI">
-        <test-method signature="weatherTest()[pri:0, instance:com.jan11.WeatherAPI@67a20f67]" started-at="2025-01-17T15:56:40 IST" name="weatherTest" finished-at="2025-01-17T15:56:42 IST" duration-ms="1562" status="PASS">
+    <test started-at="2025-01-18T17:26:33 IST" name="Default test" finished-at="2025-01-18T17:26:56 IST" duration-ms="22911">
+      <class name="core.selenium.SelectDropDown">
+        <test-method signature="dropDown()[pri:0, instance:core.selenium.SelectDropDown@654f0d9c]" started-at="2025-01-18T17:26:33 IST" name="dropDown" finished-at="2025-01-18T17:26:56 IST" duration-ms="22899" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- weatherTest -->
-      </class> <!-- com.jan11.WeatherAPI -->
+        </test-method> <!-- dropDown -->
+      </class> <!-- core.selenium.SelectDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
