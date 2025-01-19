@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.datadriven.ReadJsonFile">
+      <class name="utilities.DatePicker">
         <methods>
-          <include name="readJson"/>
+          <include name="dataPickerSelect"/>
         </methods>
-      </class> <!-- com.datadriven.ReadJsonFile -->
+      </class> <!-- utilities.DatePicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
