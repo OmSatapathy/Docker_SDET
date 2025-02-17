@@ -14,8 +14,9 @@ public class  LinklistRevese {
 		lst.add(72);
 		lst.add(91);
 		
-		LinkedList<Integer> lked= new LinkedList<Integer>();
-		lked.descendingIterator().forEachRemaining(lked::add);
+		LinkedList<Integer> lked= new LinkedList<Integer>(lst);
+		Collections.reverse(lked);
+		
 		
 		System.out.println(lked);
 		

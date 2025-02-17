@@ -4,9 +4,8 @@ import java.util.Arrays;
 
 public class ArrayRightRotatr {
 
-	public static void main(String[] args) {
-		int[] arr1 = { 41, 52, 23, 44, 55, 62, 74, 18, 92 };
-		int n = 3;
+	public static void rorateArray(int[] arr1, int n) {
+
 		int j = 0;
 
 		for (int i = 0; i < n; i++) {
@@ -16,8 +15,16 @@ public class ArrayRightRotatr {
 			}
 			arr1[0] = last;
 		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr1 = { 41, 52, 23, 44, 55, 62, 74, 18, 92 };
+
+		rorateArray(arr1, arr1.length-3);
 
 		System.out.println(Arrays.toString(arr1));
+
+//////////
 
 		String str = "same hello dame";
 		String[] sp = str.split(" ");
@@ -33,9 +40,7 @@ public class ArrayRightRotatr {
 
 		for (int i = 0; i < sp.length; i++) {
 			if (sp[i].length() > 1) {
-				sp[i] = sp[i].substring(0, 1) +
-						Character.toUpperCase(sp[i].charAt(1)) 
-				        + sp[i].substring(2);
+				sp[i] = sp[i].substring(0, 1) + Character.toUpperCase(sp[i].charAt(1)) + sp[i].substring(2);
 
 			}
 		}

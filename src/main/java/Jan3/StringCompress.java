@@ -1,6 +1,6 @@
 package Jan3;
 
-public class StringCompree {
+public class StringCompress {
 
 	public static void main(String[] args) {
 		String s= "aaabbccd";

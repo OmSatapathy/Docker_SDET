@@ -10,6 +10,7 @@ public class UpperTolower {
 
 		// Result array to hold the merged and transformed characters
 		char[] result = new char[s1.length + s2.length];
+		
 
 		// Populate the result array with alternating and transformed characters
 		for (int i = 0; i < s1.length; i++) {
@@ -18,7 +19,7 @@ public class UpperTolower {
 		}
 
 		// Print the result array
-		System.out.println(java.util.Arrays.toString(result)); // Output: [a, D, b, E, c, F]
+		System.out.println(Arrays.toString(result)); // Output: [a, D, b, E, c, F]
 	}
 
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="utilities.DatePicker">
+      <class name="com.feb11.PostRequest">
         <methods>
-          <include name="dataPickerSelect"/>
+          <include name="createObject"/>
         </methods>
-      </class> <!-- utilities.DatePicker -->
+      </class> <!-- com.feb11.PostRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
